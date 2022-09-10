@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn = document.getElementById('btn');
         let lastIndex = 0;
 
-    fetch('data/quotes.json')
+    fetch('./data/quotes.json')
         .then(res => {
             return res.json()
         })
